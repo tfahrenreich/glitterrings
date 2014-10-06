@@ -1,5 +1,5 @@
 <?php
-include_once('libs/setup.php');
+include_once('../libs/setup.php');
 
 $page = array(
     "title" => "Glitterrings",

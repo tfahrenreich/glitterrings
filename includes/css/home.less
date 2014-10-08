@@ -1,0 +1,40 @@
+html.home{
+  body{
+    div.orbit-container{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      ul[data-orbit]{
+        height: 100% !important;
+        &::before{
+          content: 'Glitterrings';
+          display: block;
+          position: absolute;
+          z-index: 999;
+          top: 50%;
+          text-transform: uppercase;
+          font-size: 3.5rem;
+          margin-top: -45px;
+          text-align: center;
+          width: 100%;
+          @media(max-width: 40em) {
+            font-size: 11vw;
+          }
+        }
+        li{
+          text-align: center;
+          height: 100%;
+          img{
+            display: inline-block;
+            height: 100%;
+          }
+        }
+      }
+      div.orbit-bullets-container{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,13 +1,19 @@
 <section data-resize>
     <ul class="example-orbit" data-orbit>
         <li>
-            <img src="http://cdn.shopify.com/s/files/1/0572/6157/products/il_fullxfull.603470437_9g6l_1024x1024.jpeg?v=1406435095" alt="slide 1" />
+            <img src="/includes/img/home/100814_Glitterrings-625-PROOF.jpg" alt="slide 1" />
         </li>
         <li class="active">
-            <img src="http://cdn.shopify.com/s/files/1/0572/6157/products/il_fullxfull.603470437_9g6l_1024x1024.jpeg?v=1406435095" alt="slide 2" />
+            <img src="/includes/img/home/100814_Glitterrings-662-PROOF.jpg" alt="slide 1" />
         </li>
         <li>
-            <img src="http://cdn.shopify.com/s/files/1/0572/6157/products/il_fullxfull.603470437_9g6l_1024x1024.jpeg?v=1406435095" alt="slide 3" />
+            <img src="/includes/img/home/100814_Glitterrings-471-PROOF.jpg" alt="slide 1" />
+        </li>
+        <li>
+            <img src="/includes/img/home/100814_Glitterrings-423-PROOF.jpg" alt="slide 1" />
+        </li>
+        <li>
+            <img src="/includes/img/home/100814_Glitterrings-390-PROOF.jpg" alt="slide 1" />
         </li>
     </ul>
 </section>

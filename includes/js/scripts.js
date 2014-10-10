@@ -28,32 +28,11 @@ $(function(){
             },
             minHeight : function(){
                 /**Sets <sections>'s min-height to viewport height for full frame sections*/
-                var $target = $('section');
+                var $target = $('section[data-resize]');
                 if($target.length > 0){
                     var $windowHeight = Glitterrings.helpers.getHeight();
                     //console.log($windowHeight);
                     $target.css('min-height', $windowHeight+'px');
-                }
-            },
-            checkSlides : function(){
-                if($('html.home ul[data-orbit]').length > 0){
-                    var $img = $('ul[data-orbit] li img')
-                    var $slide = $('ul[data-orbit] li')
-                    if($img.width() >= Glitterrings.helpers.getWidth()){
-                       $img.css('visibility', 'hidden');
-                       $slide.css({
-                           'background-image' : 'url("'+$img.attr('src')+'")',
-                           'background-size': 'cover',
-                           'background-position': 'center'
-                       })
-                    }else{
-                        $img.css('visibility', '');
-                        $slide.css({
-                            'background-image' : '',
-                            'background-size': '',
-                            'background-position': ''
-                        })
-                    }
                 }
             }
         },
@@ -70,10 +49,7 @@ $(function(){
                 $(window).scroll();
             },
             scrollfunc : function(){
-                $('section').each(function(){
-                    var randomColor = Math.floor(Math.random()*16777215).toString(16);
-                    $(this).css('background', "#"+randomColor);
-                })
+                console.log('scroll');
             }
         }
     };

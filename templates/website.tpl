@@ -22,6 +22,7 @@
     {/if}
 </head>
 <body>
+    {include file="partials/top-bar.tpl"}
     {$page.content|default:''}
     {include file='partials/third-party-scripts.tpl'}
     <script>

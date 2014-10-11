@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/includes/css/styles.less">
-    <link rel="stylesheet" type="text/css" href="/includes/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="/includes/css/responsive.css">
     <script src="/includes/js/vendor/jquery.js"></script>
-    <script src="/includes/js/foundation/foundation.js"></script>
+    <script src="/includes/js/foundation/responsive.js"></script>
     <script src="/includes/js/scripts.js"></script>
     <title>{$page.title|default:'Tim Fahrenreich'}</title>
     {if $page.css|default:false}
@@ -25,8 +25,9 @@
     {include file="partials/top-bar.tpl"}
     {$page.content|default:''}
     {include file='partials/third-party-scripts.tpl'}
+    <script src="/includes/js/foundation/foundation.topbar.js"></script>
     <script>
-        $(document).foundation();
+    $(document).foundation();
     </script>
 </body>
 </html>

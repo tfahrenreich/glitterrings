@@ -24,10 +24,8 @@
 <body>
     {include file="partials/top-bar.tpl"}
     {$page.content|default:''}
+    {include file="partials/footer.tpl"}
+
     {include file='partials/third-party-scripts.tpl'}
-    <script src="/includes/js/foundation/foundation.topbar.js"></script>
-    <script>
-    $(document).foundation();
-    </script>
 </body>
 </html>

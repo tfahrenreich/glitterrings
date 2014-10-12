@@ -1,0 +1,41 @@
+html.work{
+  body{
+    div.jumbotron{
+      height: 200px;
+      background-color: #474747;
+    }
+    .tabs-container{
+      border-top: 1px black solid;
+      border-bottom: 1px black solid;
+      .row.tabs-row{
+        text-align: center;
+        dl.tabs{
+          dd{
+            width: 25%;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            @media(max-width: 40em) {
+              width: 50%;
+            }
+            a{
+              outline: none;
+              background: none;
+            }
+            &.active{
+              &::after{
+                content: '';
+                display: block;
+                height: 5px;
+                width: 100%;
+                background: #73D7DB;
+                position: absolute;
+                bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

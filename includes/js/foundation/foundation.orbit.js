@@ -236,7 +236,7 @@
         container.on('click', '.'+settings.slides_container_class+' [data-orbit-slide]', self.link_bullet);
       }
 
-      container.on('click', self.toggle_timer);
+      //container.on('click', self.toggle_timer);
       if (settings.swipe) {
         container.on('touchstart.fndtn.orbit', function(e) {
           if (!e.touches) {e = e.originalEvent;}

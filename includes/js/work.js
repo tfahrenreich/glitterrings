@@ -1,9 +1,9 @@
 $(function(){
     $('dl.tabs dd').on('click',function(){
         var $img = {
-            "Metal"  : "/includes/img/work/100814_Glitterrings-035-Edit.jpg",
-            "Pave"   : "/includes/img/work/100814_Glitterrings-146-Edit.jpg",
-            "Enamel" : "/includes/img/work/100814_Glitterrings-321-Edit.jpg",
+            "Metal"   : "/includes/img/work/100814_Glitterrings-035-Edit.jpg",
+            "Pave"    : "/includes/img/work/100814_Glitterrings-146-Edit.jpg",
+            "Enamel"  : "/includes/img/work/100814_Glitterrings-321-Edit.jpg",
             "Texture" : "/includes/img/work/100814_Glitterrings-561-Edit.jpg"
         };
         var $jumbotron = $('div.jumbotron');

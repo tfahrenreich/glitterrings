@@ -1,6 +1,5 @@
 <section data-resize>
-    <div class="jumbotron">
-
+    <div class="jumbotron" style="background-image:url('/includes/img/work/100814_Glitterrings-035-Edit.jpg')">
     </div>
     <div class="tabs-container">
         <div class="row tabs-row">
@@ -15,16 +14,21 @@
     <div class="row">
         <div class="tabs-content">
             <div class="content active" id="panel1">
-                <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>
+                <h3>Metal</h3>
+                <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
             </div>
             <div class="content" id="panel2">
-                <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                <h3>Texture</h3>
+                <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
+
             </div>
             <div class="content" id="panel3">
-                <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+                <h3>Pave</h3>
+                <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
             </div>
             <div class="content" id="panel4">
-                <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+                <h3>Enamel</h3>
+                <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
             </div>
         </div>
     </div>

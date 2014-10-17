@@ -1,8 +1,27 @@
 html.work{
   body{
     div.jumbotron{
-      height: 200px;
       background-color: #474747;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-transition: background-position ease .3s;
+      -moz-transition: background-position ease .3s;
+      -ms-transition: background-position ease .3s;
+      -o-transition: background-position ease .3s;
+      transition: background-position ease .3s;
+      @media(max-width: 40em) {
+        height: 200px;
+      }
+      @media(min-width: 40.063em) and (max-width: 64em){
+        height: 285px;
+      }
+      @media(min-width: 64.063em) and (max-width: 74em){
+        height: 325px;
+      }
+      @media(min-width: 74.063em){
+        height: 475px;
+      }
     }
     .tabs-container{
       border-top: 1px black solid;
@@ -31,10 +50,16 @@ html.work{
                 background: #73D7DB;
                 position: absolute;
                 bottom: 0;
+                z-index: -1;
               }
             }
           }
         }
+      }
+    }
+    .tabs-content{
+      *{
+        outline: none;
       }
     }
   }

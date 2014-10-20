@@ -1,0 +1,49 @@
+html.about{
+  body{
+    h3.special-header{
+      display: block;
+      margin: 15px auto 55px;
+      width: 500px;
+      text-align: center;
+      padding: 25px;
+      border: black 1px solid;
+      position: relative;
+      @media(max-width: 40em) {
+        width: 85vw;
+      }
+      &::after{
+        content: 'The Company';
+        display: block;
+        position: absolute;
+        font-family: Raleway;
+        height: auto;
+        width: 300px;
+        background: black;
+        color: white;
+        font-size: 23px;
+        font-weight: 100;
+        left: 50%;
+        margin-left: -150px;
+        bottom: -15px;
+        @media(max-width: 40em) {
+          width: 60vw;
+          margin-left: 0;
+          left: 15%;
+        }
+      }
+    }
+    h3.secondary-special-header{
+      display: block;
+      font-family: Raleway;
+      height: auto;
+      width: 300px;
+      background: black;
+      color: #ffffff;
+      text-align: center;
+      margin: 20px auto 40px;
+      @media(max-width: 40em) {
+        width: 60vw;
+      }
+    }
+  }
+}

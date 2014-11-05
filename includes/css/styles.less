@@ -7,13 +7,20 @@ html{
     }
     section{
       overflow: hidden;
-    }
-    section[data-resize]{
-      padding-bottom: 30px;
+      section{
+        padding: 30px 0;
+        margin: 30px 0;
+        &.alternate{
+          background-color: #edeced;
+        }
+        &:first-child{
+          padding-top: 0;
+        }
+      }
     }
     h3.special-header{
       display: block;
-      margin: 15px auto 55px;
+      margin: 0 auto 55px;
       width: 500px;
       text-align: center;
       padding: 25px;
@@ -55,6 +62,14 @@ html{
       margin: 20px auto 40px;
       @media(max-width: 40em) {
         width: 60vw;
+      }
+    }
+    @media(min-width: 40.063em) {
+      .border-right{
+        border-right: rgb(144, 144, 144) 1px dotted;
+      }
+      .border-left{
+        border-left: rgb(144, 144, 144) 1px dotted;
       }
     }
   }

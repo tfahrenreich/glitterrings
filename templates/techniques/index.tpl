@@ -1,20 +1,61 @@
 <section data-resize>
-    <h3 class="special-header">Techniques</h3>
-    <div class="row">
-        <div class="large-12 columns">
-            <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
+    <section>
+        <h3 class="special-header">Techniques</h3>
+        <div class="row">
+            <div class="large-6 medium-6 columns">
+                <p>Our company defines the art of finely crafted fashion jewelry as the ability to capture a design's true essence.</p>
+                <p>It is our belief that each design has its own story and unique set of characteristics. Our design teams work hand-in-hand with our clients to understand the thinking involved behind a particular concept, which helps us better execute the final product.</p>
+                <p>We are equipped to produce a variety of fashion jewelry products, including rings, necklaces, bracelets, bangles, earrings and other unique designs, all with a laser eye focus on maintaining the highest quality.</p>
+            </div>
+            <div class="large-6 medium-6 columns">
+                <img src="/includes/img/techniques/tequ_blok1.jpg">
+            </div>
         </div>
-    </div>
-    <div class="row">
-        igm
-    </div>
-    <h3 class="secondary-special-header">Why we do it better</h3>
-    <div class="row">
-        <div class="large-6 medium-6 columns">
-            <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
+        <div class="row second">
+            <div class="large-6 medium-6 columns">
+                <img src="/includes/img/techniques/tequ_blok2.jpg">
+            </div>
+            <div class="large-6 medium-6 columns">
+                <p>Our company defines the art of finely crafted fashion jewelry as the ability to capture a design's true essence.</p>
+                <p>It is our belief that each design has its own story and unique set of characteristics. Our design teams work hand-in-hand with our clients to understand the thinking involved behind a particular concept, which helps us better execute the final product.</p>
+                <p>We are equipped to produce a variety of fashion jewelry products, including rings, necklaces, bracelets, bangles, earrings and other unique designs, all with a laser eye focus on maintaining the highest quality.</p>
+            </div>
         </div>
-        <div class="large-6 medium-6 columns">
-            <p>Nulla at iaculis lacus, sit amet convallis justo. Nulla quis felis id dolor luctus fringilla. Fusce interdum iaculis ligula, vitae porttitor nunc semper at. Fusce pretium vehicula arcu ut maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut mauris felis. Praesent molestie lacus nisi, elementum tincidunt orci elementum et. Mauris augue turpis, semper auctor eros vel, ornare venenatis augue. Morbi a magna sed nunc pulvinar suscipit quis eget felis. Proin ac erat dolor. Morbi quis nisi eget turpis molestie luctus id at ex.</p>
+    </section>
+    <section class="alternate">
+        <h3 class="secondary-special-header">Why we do it better</h3>
+        <div class="row">
+            <div class="large-12 medium-12 columns">
+                <p class="text-center">By focusing on the quality of our jewelry and the precision of our craft, we have been able to delivery only the finest jewelry products over the past couple of decades.</p>
+                <p class="text-center">Quality Control is a large focus for our partner manufacturing factory, Juan Juan. With over 30 years of experience, the Juan Juan factory production team and top level management have all been trained under the quality control and high efficiency principles from Toyota.</p>
+                <p class="text-center">Moreover, the Juan Juan factory has also met several regulatory requirements set forth by our clients. Juan Juan has factory audits conducted year round to ensure the highest compliance measures are being adequately implemented and maintained.</p>
+            </div>
         </div>
-    </div>
+
+    </section>
+    <section>
+        <div class="row">
+            <div class="large-6 medium-6 columns border-right">
+                <h4 class="text-right">Audit Companies</h4>
+                <ul class="no-bullet">
+                    <li>Intertek</li>
+                    <li>Level</li>
+                    <li>Omega Compliance</li>
+                    <li>Secura</li>
+                    <li>BV</li>
+                    <li>CQC ISO</li>
+                </ul>
+            </div>
+            <div class="large-6 medium-6 columns">
+                <h4>Active Regulatory Requirements</h4>
+                <ul class="no-bullet left-text">
+                    <li>Factory Audit</li>
+                    <li>Social Audit</li>
+                    <li>Customs-Trade Partnership Against Terrorism (C-TPAT)</li>
+                    <li>Conflict Minerals Analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 </section>

@@ -11,5 +11,31 @@ html.techniques{
         width: 85vw;
       }
     }
+    .row.second{
+      padding-top: 15px;
+      p:first-child{
+        padding-top: 15px;
+      }
+    }
+    ul{
+      li{
+        text-align: right;
+      }
+      &.left-text{
+        li{
+          text-align: left;
+        }
+      }
+    }
+    @media(max-width: 40em) {
+      h4{
+        text-align: center !important;
+      }
+      ul{
+        li{
+          text-align: center !important;
+        }
+      }
+    }
   }
 }

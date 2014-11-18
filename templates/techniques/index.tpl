@@ -2,23 +2,15 @@
     <section>
         <h3 class="special-header">Techniques</h3>
         <div class="row">
-            <div class="large-6 medium-6 columns">
+            <div class="large-10 large-push-1 medium-10 medium-push-1 columns text-center">
                 <p>Our company defines the art of finely crafted fashion jewelry as the ability to capture a design's true essence.</p>
                 <p>It is our belief that each design has its own story and unique set of characteristics. Our design teams work hand-in-hand with our clients to understand the thinking involved behind a particular concept, which helps us better execute the final product.</p>
                 <p>We are equipped to produce a variety of fashion jewelry products, including rings, necklaces, bracelets, bangles, earrings and other unique designs, all with a laser eye focus on maintaining the highest quality.</p>
-            </div>
-            <div class="large-6 medium-6 columns">
-                <img src="/includes/img/techniques/tequ_blok1.jpg">
             </div>
         </div>
-        <div class="row second">
-            <div class="large-6 medium-6 columns">
-                <img src="/includes/img/techniques/tequ_blok2.jpg">
-            </div>
-            <div class="large-6 medium-6 columns">
-                <p>Our company defines the art of finely crafted fashion jewelry as the ability to capture a design's true essence.</p>
-                <p>It is our belief that each design has its own story and unique set of characteristics. Our design teams work hand-in-hand with our clients to understand the thinking involved behind a particular concept, which helps us better execute the final product.</p>
-                <p>We are equipped to produce a variety of fashion jewelry products, including rings, necklaces, bracelets, bangles, earrings and other unique designs, all with a laser eye focus on maintaining the highest quality.</p>
+        <div class="row">
+            <div class="large-10 large-push-1 medium-10 medium-push-1 columns">
+                <img class="margin-top" src="/includes/img/techniques/100814_Glitterrings-685-Edit-cropped.jpg">
             </div>
         </div>
     </section>
@@ -31,7 +23,6 @@
                 <p class="text-center">Moreover, the Juan Juan factory has also met several regulatory requirements set forth by our clients. Juan Juan has factory audits conducted year round to ensure the highest compliance measures are being adequately implemented and maintained.</p>
             </div>
         </div>
-
     </section>
     <section>
         <div class="row">
@@ -54,6 +45,11 @@
                     <li>Customs-Trade Partnership Against Terrorism (C-TPAT)</li>
                     <li>Conflict Minerals Analysis</li>
                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-10 large-push-1 medium-10 medium-push-1 columns text-center">
+                <img class="margin-top" src="/includes/img/techniques/100814_Glitterrings-685-Edit-cropped.jpg">
             </div>
         </div>
     </section>

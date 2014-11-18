@@ -8,37 +8,32 @@
                     <form>
                         <div class="large-push-1 large-10">
                             <div class="row">
-                                <div class="large-6 medium-6 columns">
-                                    <label>Name</label>
-                                    <input type="text">
-                                </div>
-                                <div class="large-6 medium-6 columns">
+                                <div class="large-12 medium-12 columns">
                                     <label>Name</label>
                                     <input type="text">
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="large-6 medium-6 columns">
+                                    <label>Company Name</label>
+                                    <input type="text">
+                                </div>
                                 <div class="large-6 medium-6 columns">
                                     <label>Email</label>
                                     <input type="text">
                                 </div>
-                                <div class="large-6 medium-6 columns">
-                                    <label>Phone</label>
-                                    <input type="text">
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="large-6 medium-6 columns">
-                                    <label>Order Number (optional)</label>
+                                    <label>Phone</label>
                                     <input type="text">
                                 </div>
                                 <div class="large-6 medium-6 columns">
                                     <label>Best time to reach you</label>
                                     <select>
-                                        <option>Never</option>
-                                        <option>Never</option>
-                                        <option>Never</option>
-                                        <option>Never</option>
+                                        <option>Morning</option>
+                                        <option>Afternoon</option>
+                                        <option>Evening</option>
                                     </select>
                                 </div>
                             </div>

@@ -72,53 +72,61 @@ html{
         border-left: rgb(144, 144, 144) 1px dotted;
       }
     }
-  }
-  nav.top-bar{
-    ul.right{
-      width: 100%;
-      li{
-        @media(min-width: 40.063em) {
-          width: 20%;
-        }
-        text-align: center;
-        a{
-          text-transform: uppercase;
+    img{
+      &.margin-top{
+        margin-top: 40px;
+      }
+      &.margin-bottom{
+        margin-bottom: 40px;
+      }
+    }
+    nav.top-bar{
+      ul.right{
+        width: 100%;
+        li{
+          @media(min-width: 40.063em) {
+            width: 20%;
+          }
+          text-align: center;
+          a{
+            text-transform: uppercase;
+          }
         }
       }
     }
-  }
-  footer{
-    background: #333333;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    color: rgb(129, 129, 129);
-    .row.icons{
-      text-align: center;
-      a.social-link{
-        display: inline-block;
-        height: 32px;
-        width: 32px;
-        background-size: 85%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        //border: 1px solid #474747;
-        &:hover{
-          background-color: black;
-        }
-        &.facebook{
-          background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0000_facebook.png');
-        }
-        &.pinterest{
-          background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0001_pinterest.png');
-        }
-        &.twitter{
-          background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0002_twitter.png');
-        }
-        &.google{
-          background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0003_google+.png');
-        }
-        &.instagram{
-          background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0029_instagram.png');
+    footer{
+      background: #333333;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      color: rgb(129, 129, 129);
+      .row.icons{
+        text-align: center;
+        a.social-link{
+          display: inline-block;
+          height: 32px;
+          width: 32px;
+          background-size: 85%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          //border: 1px solid #474747;
+          &:hover{
+            background-color: black;
+          }
+          &.facebook{
+            background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0000_facebook.png');
+          }
+          &.pinterest{
+            background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0001_pinterest.png');
+          }
+          &.twitter{
+            background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0002_twitter.png');
+          }
+          &.google{
+            background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0003_google+.png');
+          }
+          &.instagram{
+            background-image: url('/includes/img/social-icons/s-icons_social_media_icons_white_color_transparent_background_32x32_0029_instagram.png');
+          }
         }
       }
     }

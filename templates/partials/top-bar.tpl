@@ -15,7 +15,7 @@
                 <li {if $page.type == 'work'|default:false}class="active"{/if}><a href="/work/">Work</a></li>
                 <li {if $page.type == 'techniques'|default:false}class="active"{/if}><a href="/techniques/">Techniques</a></li>
                 <li {if $page.type == 'contact'|default:false}class="active"{/if}><a href="/contact/">Contact</a></li>
-                <li class=""><a href="http://blog.glitterrings.com" target="_blank">Blog</a></li>
+                <li><a href="http://blog.glitterrings.com">Blog</a></li>
             </ul>
         </section>
     </nav>

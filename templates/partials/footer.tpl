@@ -10,6 +10,6 @@
     </div>
     <div class="row">
         <div class="large-6 columns">© 2014 Glitterrings, Inc. All Rights Reserved.</div>
-        <div class="large-6 columns text-right"> links links links</div>
+        <div class="large-6 columns text-right"></div>
     </div>
 </footer>

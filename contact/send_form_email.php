@@ -6,22 +6,6 @@ if(isset($_POST['email'])) {
     $email_subject = "Glitterrings.com Contact Form";
 
 
-    function died($error) {
-
-        // your error code can go here
-
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-
-        echo "These errors appear below.<br /><br />";
-
-        echo $error."<br /><br />";
-
-        echo "Please go back and fix these errors.<br /><br />";
-
-        die();
-
-    }
-
     // validation expected data exists
 
     $name = $_POST['name']; // required
@@ -46,8 +30,6 @@ if(isset($_POST['email'])) {
 
     }
 
-
-
     $email_message .= "First Name: ".clean_string($name)."\n";
 
     $email_message .= "Commpany Name: ".clean_string($company_name)."\n";
@@ -59,12 +41,6 @@ if(isset($_POST['email'])) {
     $email_message .= "Best Time: ".clean_string($time)."\n";
 
     $email_message .= "Comments: ".clean_string($comments)."\n";
-
-
-
-
-
-// create email headers
 
     $headers = 'From: '.$email_from."\r\n".
 

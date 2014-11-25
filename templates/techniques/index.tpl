@@ -47,11 +47,6 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="large-10 large-push-1 medium-10 medium-push-1 columns text-center">
-                <img class="margin-top" src="/includes/img/techniques/100814_Glitterrings-646-Edit-crop.jpg">
-            </div>
-        </div>
     </section>
 
 </section>

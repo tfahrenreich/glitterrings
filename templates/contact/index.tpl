@@ -4,7 +4,7 @@
         <div class="row">
             <div class="large-10 large-push-1 medium-12 columns">
                 <div class="panel">
-                    <h5 class="text-center">Lets make a phone date</h5>
+                    <h5 class="text-center">Let's make a phone date</h5>
                     {if $submitted|default:false}
                         <p class="text-center">Thank you for contacting us. We will be in touch with you very soon.</p>
                     {else}

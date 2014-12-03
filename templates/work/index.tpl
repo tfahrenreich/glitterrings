@@ -120,7 +120,7 @@
                             <img src="/includes/img/work/pave/2.jpg">
                         </div>
                         <div class="large-6 medium-6 columns">
-                            <h5 class="pointer">Swarvoski Stones</h5>
+                            <h5 class="pointer">Swarovski Stones</h5>
                             <p>To truly achieve a fine pave look and finish, only the finest Swarvoski Stones are used in for our pave line. Each stone carefully set, one by one, to ensure a beautiful product.</p>
                         </div>
                     </div>

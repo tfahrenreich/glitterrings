@@ -1799,6 +1799,7 @@ meta.foundation-mq-topbar {
       font-size: 1.0625rem;
       margin: 0; }
       .top-bar .name h1 a {
+          text-align: left;
         font-weight: normal;
         color: white;
         width: 75%;

@@ -121,7 +121,7 @@
                         </div>
                         <div class="large-6 medium-6 columns">
                             <h5 class="pointer">Swarovski Stones</h5>
-                            <p>To truly achieve a fine pave look and finish, only the finest Swarvoski Stones are used in for our pave line. Each stone carefully set, one by one, to ensure a beautiful product.</p>
+                            <p>To truly achieve a fine pave look and finish, only the finest Swarovski Stones are used in for our pave line. Each stone carefully set, one by one, to ensure a beautiful product.</p>
                         </div>
                     </div>
                     <div class="row">

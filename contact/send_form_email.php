@@ -32,7 +32,7 @@ if(isset($_POST['email'])) {
 
     $email_message .= "First Name: ".clean_string($name)."\n";
 
-    $email_message .= "Commpany Name: ".clean_string($company_name)."\n";
+    $email_message .= "Company Name: ".clean_string($company_name)."\n";
 
     $email_message .= "Email: ".clean_string($email_from)."\n";
 
